@@ -3,6 +3,7 @@ import 'package:ecommerce/common/widgets/appbar/app_bar.dart';
 import 'package:ecommerce/common/widgets/button/basic_app_button.dart';
 import 'package:ecommerce/presentation/auth/pages/enterpassword.dart';
 import 'package:ecommerce/presentation/auth/pages/signin.dart';
+import 'package:ecommerce/presentation/auth/widgets/ages.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -92,7 +93,7 @@ class SignUp extends StatelessWidget {
   Widget _continueButton(BuildContext context){
     return BasicAppButton(
       onPressed: () {
-        AppNavigator.push(context, EnterPassword());
+        AppNavigator.push(context, Ages());
       },
       title: 'Continue',
 
