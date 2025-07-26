@@ -1,7 +1,6 @@
 import 'package:ecommerce/common/helper/naviagtor/app_navigator.dart';
 import 'package:ecommerce/common/widgets/appbar/app_bar.dart';
 import 'package:ecommerce/common/widgets/button/basic_app_button.dart';
-import 'package:ecommerce/presentation/auth/pages/enterpassword.dart';
 import 'package:ecommerce/presentation/auth/pages/signin.dart';
 import 'package:ecommerce/presentation/auth/widgets/ages.dart';
 import 'package:flutter/gestures.dart';
